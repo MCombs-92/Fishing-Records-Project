@@ -11,7 +11,9 @@ namespace Fishing_Records {
             // Web API routes
             config.MapHttpAttributeRoutes();
 
-                        config.Routes.MapHttpRoute(
+            config.EnableCors();
+
+            config.Routes.MapHttpRoute(
                 name: "DefaultWebApi",
                 routeTemplate: "{controller}/{action}/{id}",
                 defaults: new { id = RouteParameter.Optional }
