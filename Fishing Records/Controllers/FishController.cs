@@ -9,7 +9,7 @@ using System.Web.Http.Cors;
 
 namespace Fishing_Records.Controllers {
 
-    [EnableCors(origins: "http://localhost", headers: "*", methods: "*")]
+    [EnableCors(origins: "http://localhost:4200", headers: "*", methods: "*")]
 
     public class FishController : ApiController {
 
