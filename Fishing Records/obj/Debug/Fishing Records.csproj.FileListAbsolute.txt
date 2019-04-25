@@ -88,3 +88,6 @@ D:\Repositories\Fishing Records Solution\Fishing Records\obj\Debug\Fishing_Recor
 D:\Repositories\Fishing Records Solution\Fishing Records\obj\Debug\Fishing Records.csproj.GenerateResource.cache
 D:\Repositories\Fishing Records Solution\Fishing Records\obj\Debug\Fishing_Records.Migrations.Fishupdates.resources
 D:\Repositories\Fishing Records Solution\Fishing Records\obj\Debug\Fishing_Records.Migrations.AllowednullableweightinclassFish.resources
+D:\Repositories\Fishing Records Solution\Fishing Records\bin\System.Web.Cors.dll
+D:\Repositories\Fishing Records Solution\Fishing Records\bin\System.Web.Http.Cors.dll
+D:\Repositories\Fishing Records Solution\Fishing Records\bin\System.Web.Http.Cors.xml
