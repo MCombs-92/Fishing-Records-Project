@@ -56,9 +56,11 @@ namespace Fishing_Records.Controllers {
             }
 
             var f = db.Fish.Find(fish.Id);
-            f.Species = fish.Species;
+            f.TrueSpecies = fish.TrueSpecies;
+            f.SubSpecies = fish.SubSpecies;
             f.Weight = fish.Weight;
-            f.Bait = fish.Bait;
+            f.BaitStyle = fish.BaitStyle;
+            f.BaitDesc = fish.BaitDesc;
 
             db.SaveChanges();
             return true;

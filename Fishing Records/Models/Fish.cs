@@ -14,14 +14,22 @@ namespace Fishing_Records.Models {
         public int Id { get; set; }
 
         [Required]
-        [StringLength(30)]
-        public string Species { get; set; }
+        [StringLength(50)]
+        public string TrueSpecies { get; set; }
+
+        [Required]
+        [StringLength(50)]
+        public string SubSpecies { get; set; }
 
         public int? Weight { get; set; }
 
-        [StringLength(30)]
+        [StringLength(50)]
         [Required]
-        public string Bait { get; set; }
+        public string BaitStyle { get; set; }
+
+        [StringLength(50)]
+        [Required]
+        public string BaitDesc { get; set; }
 
     }
 }
