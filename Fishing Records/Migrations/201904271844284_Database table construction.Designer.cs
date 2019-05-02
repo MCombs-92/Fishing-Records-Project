@@ -7,13 +7,13 @@ namespace Fishing_Records.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class Fishupdates : IMigrationMetadata
+    public sealed partial class Databasetableconstruction : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Fishupdates));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Databasetableconstruction));
         
         string IMigrationMetadata.Id
         {
-            get { return "201904231933219_Fish updates"; }
+            get { return "201904271844284_Database table construction"; }
         }
         
         string IMigrationMetadata.Source

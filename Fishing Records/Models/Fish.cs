@@ -15,7 +15,7 @@ namespace Fishing_Records.Models {
 
         [Required]
         [StringLength(50)]
-        public string TrueSpecies { get; set; }
+        public string Species { get; set; }
 
         [Required]
         [StringLength(50)]
@@ -30,6 +30,9 @@ namespace Fishing_Records.Models {
         [StringLength(50)]
         [Required]
         public string BaitDesc { get; set; }
+
+        public bool Markedforremoval { get; set; } = false;
+
 
     }
 }

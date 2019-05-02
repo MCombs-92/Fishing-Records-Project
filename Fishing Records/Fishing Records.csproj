@@ -173,17 +173,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201904231927507_Initial Migration.cs" />
-    <Compile Include="Migrations\201904231927507_Initial Migration.Designer.cs">
-      <DependentUpon>201904231927507_Initial Migration.cs</DependentUpon>
+    <Compile Include="Migrations\201904271844284_Database table construction.cs" />
+    <Compile Include="Migrations\201904271844284_Database table construction.Designer.cs">
+      <DependentUpon>201904271844284_Database table construction.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201904231933219_Fish updates.cs" />
-    <Compile Include="Migrations\201904231933219_Fish updates.Designer.cs">
-      <DependentUpon>201904231933219_Fish updates.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201904232348451_Allowed nullable weight in class Fish.cs" />
-    <Compile Include="Migrations\201904232348451_Allowed nullable weight in class Fish.Designer.cs">
-      <DependentUpon>201904232348451_Allowed nullable weight in class Fish.cs</DependentUpon>
+    <Compile Include="Migrations\201904272035502_updated fish model.cs" />
+    <Compile Include="Migrations\201904272035502_updated fish model.Designer.cs">
+      <DependentUpon>201904272035502_updated fish model.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Fish.cs" />
@@ -274,14 +270,11 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201904231927507_Initial Migration.resx">
-      <DependentUpon>201904231927507_Initial Migration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201904271844284_Database table construction.resx">
+      <DependentUpon>201904271844284_Database table construction.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904231933219_Fish updates.resx">
-      <DependentUpon>201904231933219_Fish updates.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904232348451_Allowed nullable weight in class Fish.resx">
-      <DependentUpon>201904232348451_Allowed nullable weight in class Fish.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201904272035502_updated fish model.resx">
+      <DependentUpon>201904272035502_updated fish model.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
