@@ -10,6 +10,7 @@ namespace Fishing_Records.Models {
     public class FRDBContext : DbContext {
 
         public DbSet<Fish> Fish { get; set; }
+        public DbSet<Rod> Rods { get; set; }
 
     }
 }
